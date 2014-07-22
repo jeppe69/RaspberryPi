@@ -1,4 +1,4 @@
-﻿1. Purpose
+1. Purpose
 2. Ingredients
 3. Connections
 4. python
