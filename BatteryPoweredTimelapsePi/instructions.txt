@@ -10,7 +10,7 @@
 
 
 1. The Purpose:
-I've been looking for a good guide to buid a TimelapseRPi that run on battery and have a safe way to control shutting down the Pi after 'photo session'. 
+I have been looking for a good guide to buid a TimelapseRPi that run on battery and have a safe way to control shutting down the Pi after 'photo session'. 
 I found out pretty early that just shutting down the Pi when I'm done with capturing pics can very effectively brick the USBkey I'm using for storage. In order to mend this I added a Tactile button that, when pressed, initiate a clean 'shutdown' on my Raspberry Pi.
 
 2. The ingredients:
