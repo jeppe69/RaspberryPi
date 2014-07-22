@@ -26,6 +26,6 @@ GPIO.add_event_detect(offpin, GPIO.FALLING, callback = Int_shutdown, bouncetime 
 
 #timelapse engine - save pic every 'sleepytimer' seconds to /mnt/stills/img-{timestamp}.jpg
 with picamera.PiCamera() as camera:
-    for filename in camera.capture_continuous('/mnt/stills/img-{timestamp}.jpg'):
+    for filename in camera.capture_continuous('/mnt/stills/img-{counter:03d}.jpg'):
         time.sleep(sleepytimer)
 
