@@ -4,8 +4,8 @@ batterypowered-timlapsePi
 
 #The Purpose:
 
-I have been looking for a good guide to buid a TimelapseRPi that run on battery with a safe way to control shutting down the Pi after 'photo session'. 
-I found out pretty early that just shutting down the Pi when done capturing pics can very effectively brick the USBkey I'm using for storage. In order to mend this I added a Tactile button that, when pressed, initiate a clean 'shutdown' on my Raspberry Pi.
+I have been looking for a good guide to bulid a TimelapseRPi that run on battery with a safe way to shut down the Pi after 'photo session'. 
+I found out pretty early that just pulling battery plug from Pi when done capturing pics can very effectively brick the USBkey I'm using for storage. In order to mend this I added a Tactile button that, when pressed, initiate a clean 'shutdown' on my Raspberry Pi.
 
 #The ingredients:
 
