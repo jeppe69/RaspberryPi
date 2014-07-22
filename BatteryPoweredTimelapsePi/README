@@ -86,7 +86,7 @@ I first make a 'playlist' for mencoder, the ls options will sort the files by  m
 move USB key to PC
  # cd /mnt/stills (your USB Key with stored.jpgs)
  # mkdir ~/pixfolder
- # ls -ltr *.jpg | awk '{print $8}' > ~/pixfolder/timelapse.txt
+ # ls -ltr *.jpg | awk '{print $9}' > ~/pixfolder/timelapse.txt
 
 Next move the jpegs from USB-key to PC:
  # mv *.jpg /home/user/pixfolder/
