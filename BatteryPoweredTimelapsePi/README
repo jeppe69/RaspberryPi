@@ -7,13 +7,13 @@ I found out pretty early that just pulling battery plug from Pi when done captur
 
 -Raspberry Pi model A or B (I used B for setting things up and then transferred everything to a model A).
 -Raspberry Pi Camera Board.
--SD card with Raspbian –  I used the raspbian image available at http://www.raspberrypi.org/downloads/ using NOOBS should work nicely too.
+-SD card with Raspbian –  I used the raspbian image available at http://www.raspberrypi.org/downloads/ using NOOBS should work nicely as well.
 -USB to MicroUSB cable.
 -USB key to store the python script and storage for jpegs.
 -2x female<-->female jumper cable to connect Tact Button to GPIO.
 -Tactile Button.
 -Battery pack. I use 5vDC 1000mA pack which gives me many hours of capturing.
--Flexible Arm for Camera Board (Optional).
+-Flexible arm for Camera Board (Optional).
 
 #Connecting tactile button to GPIO:
 
