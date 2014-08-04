@@ -44,13 +44,13 @@ Next some fdisk magic:
  # fdisk /dev/sda (or what device yourUSBkey is)
 'p' – print current partition setup on screen
 Remove all existing partitions:
-'d' followed by number of partition to delete (repeat till all are gone)
+'d' followed by number of partition to delete (repeat until all are gone)
 When USB device is clean hit:
 'n' to make new partition
-'p'' for primary
+'p' for primary
 'enter' (default partition number)
 'enter' (default start sector)
-'enter'  (default end sector)
+'enter' (default end sector)
 't' set partition type
 '83'' linux
 'w' write parition table and exit FDISK
