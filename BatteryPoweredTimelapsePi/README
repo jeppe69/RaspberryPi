@@ -37,7 +37,7 @@ Create partition with ext4 File System on the USB key and mount it.
 Create mount point:
  # mkdir /mnt/stills
 
-Find your USB key by inserting it and then type # dmesg | tail the device shown should be your USB device. In my case, and most likely your case too, it's /dev/sda
+Find your USB key by inserting it and then type # dmesg | tail the device shown should be your USB device. In my case, and most likely your's to, it's /dev/sda
 	
 Next some fdisk magic:
 **WARNING THIS WILL ERASE ALL DATA STORED ON YOUR USB DEVICE**
